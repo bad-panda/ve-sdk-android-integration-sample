@@ -92,6 +92,6 @@ class VideoEditorKoinModule : FlowEditorModule() {
         }
 
     override val draftConfig: BeanDefinition<DraftConfig> = factory(override = true) {
-        DraftConfig.ENABLED_ASK_TO_SAVE
+        DraftConfig.DISABLED
     }
 }
